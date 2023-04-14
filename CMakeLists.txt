@@ -14,6 +14,9 @@ add_library(imgui
         imstb_textedit.h
         imstb_truetype.h
 
+        misc/cpp/imgui_stdlib.cpp
+        misc/cpp/imgui_stdlib.cpp
+
         backends/imgui_impl_opengl3.h
         backends/imgui_impl_opengl3.cpp
         backends/imgui_impl_opengl3_loader.h
