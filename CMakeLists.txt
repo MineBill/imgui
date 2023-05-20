@@ -23,6 +23,6 @@ add_library(imgui
         backends/imgui_impl_glfw.h
         backends/imgui_impl_glfw.cpp)
 
-target_link_libraries(imgui glfw)
+target_link_libraries(imgui glfw glm::glm)
 
 target_include_directories(imgui SYSTEM PUBLIC .)
